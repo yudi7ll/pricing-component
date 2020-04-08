@@ -1,7 +1,14 @@
-@import 'https://fonts.google.com/specimen/Montserrat';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+@import './variables';
+@import './switcher';
+
+html {
+  font-size: 15px;
+}
 
 body {
-  font-family: 'Montserrat';
+  background-color: hsl(240, 78%, 98%);
+  font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   margin: 0;
 }
@@ -9,4 +16,12 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+// mobile
+h1 {
+  color: hsl(232, 13%, 33%);
+  font-weight: bold;
+  margin: 3rem auto 2rem;
+  text-align: center;
 }

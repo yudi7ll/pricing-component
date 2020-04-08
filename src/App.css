@@ -1,12 +1,85 @@
-@import 'https://fonts.google.com/specimen/Montserrat';
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap");
+.switch {
+  align-items: middle;
+  display: flex;
+  justify-content: center;
+}
+.switch__text {
+  display: inline-block;
+  color: #b3b5c6;
+  margin: auto 1rem;
+}
+.switch__box {
+  cursor: pointer;
+  display: inline-block;
+  height: 26px;
+  width: 48px;
+  position: relative;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.switch__box input {
+  cursor: pointer;
+  height: 0px;
+  opacity: 0;
+  width: 0px;
+}
+.switch__box input:checked + .switch__slider {
+  background-image: linear-gradient(to right, #a3a8f0, #696fdd);
+  transition: 0.4s ease-out;
+}
+.switch__box input:checked + .switch__slider:before {
+  left: auto;
+  right: 4px;
+}
+.switch__box:hover {
+  opacity: 0.8;
+}
+.switch__slider {
+  background-color: #dedede;
+  border-radius: 24px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: 0.4s ease-out;
+  transition: 0.4s ease-out;
+}
+.switch__slider:before {
+  background-color: #fff;
+  border-radius: 50%;
+  content: "";
+  width: 18px;
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: 4px;
+  right: auto;
+  -webkit-transition: 0.2 ease-out;
+  transition: 0.2s ease-out;
+}
+
+html {
+  font-size: 15px;
+}
+
 body {
-  font-family: "Montserrat";
+  background-color: #f6f6fe;
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
   margin: 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+h1 {
+  color: #494c5f;
+  font-weight: bold;
+  margin: 3rem auto 2rem;
+  text-align: center;
 }
 
 /*# sourceMappingURL=App.css.map */
