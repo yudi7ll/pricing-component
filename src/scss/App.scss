@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
 @import './variables';
 @import './switcher';
+@import './pricing';
 
 html {
   font-size: 15px;
@@ -8,8 +9,10 @@ html {
 
 body {
   background-color: hsl(240, 78%, 98%);
+  color: hsl(232, 13%, 33%);
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
+  font-weight: bold;
   margin: 0;
 }
 
@@ -20,7 +23,6 @@ code {
 
 // mobile
 h1 {
-  color: hsl(232, 13%, 33%);
   font-weight: bold;
   margin: 3rem auto 2rem;
   text-align: center;
