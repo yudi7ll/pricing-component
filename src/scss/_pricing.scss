@@ -54,20 +54,39 @@
 
     button {
       background-image: $primary-gradient;
-      border: none;
+      border-width: 2px;
+      border-color: transparent;
+      border-left: transparent;
+      border-right: transparent;
       border-radius: 8px;
       color: #fff;
       cursor: pointer;
       display: block;
       font-weight: bold;
-      padding: 1rem 0px;
+      height: 100%;
+      outline: none;
+      padding: .8rem 0px;
+      transition: .5s;
       width: 100%;
+
+      &:hover {
+        background-color: #fff;
+        background-image: none;
+        border: 2px solid hsl(237, 63%, 64%);
+        color: hsl(237, 63%, 64%);
+      }
     }
 
     &--white button {
       background-color: #fff;
       background-image: none;
       color: hsl(237, 63%, 64%);
+
+      &:hover {
+        background-color: transparent;
+        border-color: hsl(240, 78%, 90%);
+        color: #fff;
+      }
     }
   }
 }

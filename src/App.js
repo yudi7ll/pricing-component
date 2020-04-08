@@ -26,7 +26,7 @@ function App() {
             <li>Send up to 3 GB</li>
           </ul>
           <div className="pricing__btn">
-            <button type="button">LEARN MORE</button>
+            <button type="button" onClick={ () => document.location.reload() }>LEARN MORE</button>
           </div>
         </div>
       </div>
@@ -43,7 +43,7 @@ function App() {
             <li>Send up to 10 GB</li>
           </ul>
           <div className="pricing__btn pricing__btn--white">
-            <button type="button">LEARN MORE</button>
+            <button type="button" onClick={ () => document.location.reload() }>LEARN MORE</button>
           </div>
         </div>
       </div>
@@ -60,7 +60,7 @@ function App() {
             <li>Send up to 20 GB</li>
           </ul>
           <div className="pricing__btn">
-            <button type="button">LEARN MORE</button>
+            <button type="button" onClick={ () => document.location.reload() }>LEARN MORE</button>
           </div>
         </div>
       </div>

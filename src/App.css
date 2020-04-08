@@ -108,27 +108,43 @@
 }
 .pricing__btn button {
   background-image: linear-gradient(to right, #a3a8f0, #696fdd);
-  border: none;
+  border-width: 2px;
+  border-color: transparent;
+  border-left: transparent;
+  border-right: transparent;
   border-radius: 8px;
   color: #fff;
   cursor: pointer;
   display: block;
   font-weight: bold;
-  padding: 1rem 0px;
+  height: 100%;
+  outline: none;
+  padding: 0.8rem 0px;
+  transition: 0.5s;
   width: 100%;
+}
+.pricing__btn button:hover {
+  background-color: #fff;
+  background-image: none;
+  border: 2px solid #696fdd;
+  color: #696fdd;
 }
 .pricing__btn--white button {
   background-color: #fff;
   background-image: none;
   color: #696fdd;
 }
-
-html {
-  font-size: 15px;
+.pricing__btn--white button:hover {
+  background-color: transparent;
+  border-color: #d2d2f9;
+  color: #fff;
 }
 
-body {
+html, body {
   background-color: #f6f6fe;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   color: #494c5f;
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
