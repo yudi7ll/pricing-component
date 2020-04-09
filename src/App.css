@@ -1,4 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap");
+html, body {
+  background-color: #f6f6fe;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #494c5f;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+h1 {
+  font-weight: bold;
+  margin: 3rem auto 2rem;
+  text-align: center;
+}
+
 .switch {
   align-items: middle;
   display: flex;
@@ -73,8 +95,18 @@
   padding: 1.5rem 0px;
   width: 100%;
 }
-.pricing__box--blue {
+.pricing:nth-child(even) .pricing__box {
   background-image: linear-gradient(to bottom, #a3a8f0, #696fdd);
+  color: #fff;
+}
+.pricing:nth-child(even) .pricing__btn button {
+  background-color: #fff;
+  background-image: none;
+  color: #696fdd;
+}
+.pricing:nth-child(even) .pricing__btn button:hover {
+  background-color: transparent;
+  border-color: #d2d2f9;
   color: #fff;
 }
 .pricing__price {
@@ -120,7 +152,7 @@
   height: 100%;
   outline: none;
   padding: 0.8rem 0px;
-  transition: 0.5s;
+  transition: 0.3s;
   width: 100%;
 }
 .pricing__btn button:hover {
@@ -128,38 +160,6 @@
   background-image: none;
   border: 2px solid #696fdd;
   color: #696fdd;
-}
-.pricing__btn--white button {
-  background-color: #fff;
-  background-image: none;
-  color: #696fdd;
-}
-.pricing__btn--white button:hover {
-  background-color: transparent;
-  border-color: #d2d2f9;
-  color: #fff;
-}
-
-html, body {
-  background-color: #f6f6fe;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  color: #494c5f;
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-  margin: 0;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-}
-
-h1 {
-  font-weight: bold;
-  margin: 3rem auto 2rem;
-  text-align: center;
 }
 
 /*# sourceMappingURL=App.css.map */

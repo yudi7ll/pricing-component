@@ -11,8 +11,22 @@
     padding: 1.5rem 0px;
     width: 100%;
 
-    &--blue {
-      background-image: linear-gradient(to bottom, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  }
+
+  // Even child of pricing components
+  &:nth-child(even) &__box {
+    background-image: linear-gradient(to bottom, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    color: #fff;
+  }
+
+  &:nth-child(even) &__btn button {
+    background-color: #fff;
+    background-image: none;
+    color: hsl(237, 63%, 64%);
+
+    &:hover {
+      background-color: transparent;
+      border-color: hsl(240, 78%, 90%);
       color: #fff;
     }
   }
@@ -66,7 +80,7 @@
       height: 100%;
       outline: none;
       padding: .8rem 0px;
-      transition: .5s;
+      transition: .3s;
       width: 100%;
 
       &:hover {
@@ -74,18 +88,6 @@
         background-image: none;
         border: 2px solid hsl(237, 63%, 64%);
         color: hsl(237, 63%, 64%);
-      }
-    }
-
-    &--white button {
-      background-color: #fff;
-      background-image: none;
-      color: hsl(237, 63%, 64%);
-
-      &:hover {
-        background-color: transparent;
-        border-color: hsl(240, 78%, 90%);
-        color: #fff;
       }
     }
   }

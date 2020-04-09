@@ -1,28 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+// Don"t write style here!
+@import './init';
 @import './variables';
 @import './switcher';
 @import './pricing';
-
-html, body {
-  background-color: hsl(240, 78%, 98%);
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  color: hsl(232, 13%, 33%);
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-  margin: 0;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-// mobile
-h1 {
-  font-weight: bold;
-  margin: 3rem auto 2rem;
-  text-align: center;
-}
