@@ -72,7 +72,9 @@ function App() {
         </label>
         <h4 className="switch__text">Monthly</h4>
       </div>
-      <Pricing />
+      <div className="pricing-card">
+        <Pricing />
+      </div>
     </>
   );
 }

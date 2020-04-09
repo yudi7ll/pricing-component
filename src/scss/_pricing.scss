@@ -7,10 +7,11 @@
   &__box {
     background-color: #fff;
     box-shadow: 0px 4px 8px rgba(0,0,0,.1);
-    border-radius: 12px;
+    border-radius: 8px;
+    margin: auto;
+    max-width: 440px;
     padding: 1.5rem 0px;
     width: 100%;
-
   }
 
   // Even child of pricing components
@@ -88,6 +89,33 @@
         background-image: none;
         border: 2px solid hsl(237, 63%, 64%);
         color: hsl(237, 63%, 64%);
+      }
+    }
+  }
+}
+
+// Desktop
+@media only screen and (min-width: 768px) {
+  .pricing-card {
+    box-sizing: border-box;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    max-width: 1024px;
+    padding-top: 1rem;
+    padding: 1rem .5rem 0px;
+
+    .pricing {
+      padding: 0px;
+
+      &__box {
+        box-shadow: 0px 4px 8px rgba(0,0,0,.2);
+      }
+
+      // Even child of pricing components
+      &:nth-child(even) {
+        transform: scaleY(1.1);
       }
     }
   }
