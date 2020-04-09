@@ -3,7 +3,7 @@ import './App.css';
 
 function PricingComponent({ title, price, features = [] }) {
   const Features = () => features.map(feature => (
-    <li>{ feature }</li>
+    <li key={feature}>{ feature }</li>
   ));
   
   return (
@@ -55,6 +55,7 @@ function App() {
 
   const Pricing = () => data.map(({ title, price, features }) => (
     <PricingComponent
+      key={title}
       title={title}
       price={price}
       features={features}
