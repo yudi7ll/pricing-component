@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Pricing",
+  "name": "Pricing Component",
   "icons": [
     {
       "src": "favicon.ico",
