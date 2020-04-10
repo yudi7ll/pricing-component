@@ -14,13 +14,12 @@
     width: 100%;
   }
 
-  // Even child of pricing components
-  &:nth-child(even) &__box {
+  &:nth-child(2) &__box {
     background-image: linear-gradient(to bottom, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
     color: #fff;
   }
 
-  &:nth-child(even) &__btn button {
+  &:nth-child(2) &__btn button {
     background-color: #fff;
     background-image: none;
     color: hsl(237, 63%, 64%);
@@ -113,8 +112,7 @@
         box-shadow: 0px 4px 8px rgba(0,0,0,.2);
       }
 
-      // Even child of pricing components
-      &:nth-child(even) {
+      &:nth-child(2) {
         transform: scaleY(1.1);
       }
     }
