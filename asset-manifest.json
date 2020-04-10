@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pricing-component/static/css/main.8fc53ad8.chunk.css",
+    "main.css": "/pricing-component/static/css/main.83ffa3f4.chunk.css",
     "main.js": "/pricing-component/static/js/main.d156a524.chunk.js",
     "main.js.map": "/pricing-component/static/js/main.d156a524.chunk.js.map",
     "runtime-main.js": "/pricing-component/static/js/runtime-main.8a13584c.js",
@@ -8,15 +8,15 @@
     "static/js/2.b22b121a.chunk.js": "/pricing-component/static/js/2.b22b121a.chunk.js",
     "static/js/2.b22b121a.chunk.js.map": "/pricing-component/static/js/2.b22b121a.chunk.js.map",
     "index.html": "/pricing-component/index.html",
-    "precache-manifest.62b32865a9c8116947df36ac1a951860.js": "/pricing-component/precache-manifest.62b32865a9c8116947df36ac1a951860.js",
+    "precache-manifest.35ecb9aac07c926ba196c6e578a7dc40.js": "/pricing-component/precache-manifest.35ecb9aac07c926ba196c6e578a7dc40.js",
     "service-worker.js": "/pricing-component/service-worker.js",
-    "static/css/main.8fc53ad8.chunk.css.map": "/pricing-component/static/css/main.8fc53ad8.chunk.css.map",
+    "static/css/main.83ffa3f4.chunk.css.map": "/pricing-component/static/css/main.83ffa3f4.chunk.css.map",
     "static/js/2.b22b121a.chunk.js.LICENSE.txt": "/pricing-component/static/js/2.b22b121a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8a13584c.js",
     "static/js/2.b22b121a.chunk.js",
-    "static/css/main.8fc53ad8.chunk.css",
+    "static/css/main.83ffa3f4.chunk.css",
     "static/js/main.d156a524.chunk.js"
   ]
 }
