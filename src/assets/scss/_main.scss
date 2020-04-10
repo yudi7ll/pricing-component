@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
 
-html, body {
+body {
   background-color: hsl(240, 78%, 98%);
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -10,6 +10,32 @@ html, body {
   font-size: 15px;
   font-weight: bold;
   margin: 0;
+}
+
+// Mobile bg
+.bg-top {
+  position: fixed;
+  top: 0;
+  right: -200px;
+  z-index: -1;
+}
+
+.bg-bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+  z-index: -1;
+}
+
+@media only screen and (min-width: 768px) {
+  .bg-top {
+    right: 0;
+  }
+
+  .bg-bottom {
+    opacity: 1;
+  }
 }
 
 code {
