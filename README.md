@@ -1,4 +1,4 @@
-# Welcome 
+# Frontend Mentor Challenge 
 
 [Demo Sites](https://yudi7ll.github.io/pricing-component)
 
