@@ -1,4 +1,4 @@
-# Frontend Mentor Challenge 
+# Welcome
 
 [Demo Sites](https://yudi7ll.github.io/pricing-component)
 
@@ -6,7 +6,3 @@
 
 <img src="https://res.cloudinary.com/dz209s6jk/image/upload/v1575037823/Challenges/d3zuxyz7uggvmjtk895p.jpg" alt="Desktop Design" width="100%" />
 <img src="https://res.cloudinary.com/dz209s6jk/image/upload/v1575037822/Challenges/y6r5ojf6yrqbmetzm3xw.jpg" alt="Active States" width="100%" />
-
-<p align="center">
-<img src="https://res.cloudinary.com/dz209s6jk/image/upload/v1575037822/Challenges/hzkxlubqwtyisgtgomat.jpg" alt="Mobile Design" />
-</p>
