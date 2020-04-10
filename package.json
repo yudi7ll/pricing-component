@@ -7,7 +7,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "sass": "sass src/scss/App.scss src/App.css",
+    "sass": "sass src/assets/scss/App.scss src/App.css",
     "sass:watch": "npm run sass -- --watch",
     "eject": "react-scripts eject",
     "predeploy": "npm run sass && npm run build",
