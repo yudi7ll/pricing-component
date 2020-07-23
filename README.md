@@ -1,4 +1,4 @@
-## Pricing component
+# Pricing component
 
 [Demo](https://yudi7ll.github.io/pricing-component)
 
